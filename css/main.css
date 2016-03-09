@@ -1,0 +1,404 @@
+body {
+    font-size: 16px;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.6;
+    font-family: "RobotoRegular", sans-serif;
+    overflow-x: hidden;
+}
+
+.float-right {
+    float: right;
+}
+
+.top_line {
+    background-color: #2c3e50;
+    text-align: center;
+}
+
+.top_line a {
+    color: white;
+}
+
+.top_line .sf-menu {
+    margin: auto;
+    float: none;
+    display: inline-block;
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 0.9em;
+}
+
+.top_line .sf-menu ul {
+    background-color: #2c3e50;
+
+}
+
+.top_line .sf-menu li {
+    background-color: transparent;
+}
+
+.top_line .sf-menu li a {
+    color: #fff;
+    border: none;
+    padding: 12px 19px 5px 18px;
+    letter-spacing: 0.04em;
+}
+
+.top_line .sf-menu li:hover {
+    background-color: transparent;
+}
+
+.top_line .sf-menu li a:hover {
+    color: #26ab5e;
+}
+
+.top_line .sf-menu > li {
+    display: inline-block;
+}
+
+.layout {
+    font-family: "Roboto-Black", sans-serif;
+    font-weight: bold;
+    color: #27ae60;
+    font-size: 1.5625em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.button_gradient {
+    background: rgba(39, 174, 95, 1);
+    background: -moz-linear-gradient(top, rgba(39, 174, 95, 1) 0%, rgba(35, 157, 86, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(39, 174, 95, 1) 0%, rgba(35, 157, 86, 1) 100%);
+    background: -o-linear-gradient(top, rgba(39, 174, 95, 1) 0%, rgba(35, 157, 86, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(39, 174, 95, 1) 0%, rgba(35, 157, 86, 1) 100%);
+    background: linear-gradient(to bottom, rgba(39, 174, 95, 1) 0%, rgba(35, 157, 86, 1) 100%);
+}
+
+/*button_hover*/
+
+.button_enter:hover, .button_enter_bottom:hover, .button_go:hover {
+    background: rgba(54, 199, 114, 1);
+    background: -moz-linear-gradient(top, rgba(54, 199, 114, 1) 0%, rgba(49, 179, 103, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(54, 199, 114, 1) 0%, rgba(49, 179, 103, 1) 100%);
+    background: -o-linear-gradient(top, rgba(54, 199, 114, 1) 0%, rgba(49, 179, 103, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(54, 199, 114, 1) 0%, rgba(49, 179, 103, 1) 100%);
+    background: linear-gradient(to bottom, rgba(54, 199, 114, 1) 0%, rgba(49, 179, 103, 1) 100%);
+}
+
+.button_enter {
+    font-family: "RobotoMedium", sans-serif;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-top: 4px;
+    float: right;
+}
+
+/*gallery*/
+.slider_wrap .slider-nav {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    color: #2c3e50;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.slider_wrap .slider-nav div {
+    cursor: pointer;
+    position: absolute;
+    top: 180px;
+}
+
+.slider_wrap .slider-nav div:last-child {
+    right: 0;
+}
+
+.slider_wrap .slider-nav-container {
+    position: relative;
+}
+
+.slider .owl-dots {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.slider .owl-dots .owl-dot {
+    display: inline-block;
+    margin: 0 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #74847a;
+    border-radius: 10em;
+    -moz-border-radius: 10em;
+    -webkit-border-radius: 10em;
+    cursor: pointer;
+}
+
+.slider .owl-dots .active {
+    background-color: #2c3e50;
+}
+
+.slider .slide {
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 420px;
+}
+
+.slider .slide .slide-content {
+    padding-top: 95px;
+}
+
+.slider .slide .slide-content .slide-content_text {
+    font-family: "Roboto-Thin", sans-serif;
+    text-align: center;
+    color: #555;
+    font-size: 3.4375em;
+    line-height: 1.11em;
+}
+
+.button_go {
+    font-family: "RobotoRegular", sans-serif;
+    color: #fff;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-top: 45px;
+    line-height: 2em;
+    padding: 0 23px;
+}
+
+/*gallery*/
+
+/*article_center*/
+.article_center {
+    font-family: "RobotoLight", sans-serif;
+    font-size: 2.18em;
+    color: #2c3e50;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.article_center_p {
+    font-family: "RobotoLight", sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 0.015em;
+    line-height: 1.7em;
+    color: #444;
+}
+
+.your_photo {
+    font-family: "RobotoLight", sans-serif;
+    font-size: 0.7em;
+    color: #2c3e50;
+    margin-top: 35px;
+    float: right;
+}
+
+.your_photo figcaption {
+    margin-bottom: 5px;
+}
+
+.container_img_your_photo {
+    max-width: 380px;
+    max-height: 480px;
+}
+
+.your_photo img {
+    width: 100%; /* ширина картинки */
+    height: auto; /* высота картинки */
+}
+
+/*section_register*/
+.section_register {
+    width: 100%;
+    background-image: url("../img/section_register_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+}
+
+.section_register_bg {
+    width: 100%;
+    background-image: url("../img/section_register_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    margin-top: 70px;
+}
+
+/*form*/
+.main {
+    margin: 0 auto;
+    padding: 30px 0;
+    background: #fff;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main h3 {
+    font-size: 2.1em;
+    letter-spacing: 0.03em;
+    color: #555;
+    font-family: "Roboto-Thin", sans-serif;
+    margin-bottom: 5px;
+}
+
+/* Стили формы */
+
+/*Стили полей для ввода*/
+#applicationEmail, #applicationPassword, #applicationCounty {
+    width: 100%;
+    height: 50px;
+    background: #f5f5f5;
+    margin-top: 10px;
+    border: none;
+    border-top: 1px solid #c4c4c4;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding-left: 15px;
+    text-align: left;
+    font-size: 24px;
+    font-family: "RobotoLight", sans-serif;
+    font-size: 1.25em;
+    color: #555;
+
+}
+
+#applicationCounty {
+    font-size: 1.25em;
+}
+
+/*Стили полей при клике по ним*/
+#applicationEmail:focus, #applicationPassword:focus, #applicationCounty:focus {
+    border: 1px solid #30ad64;
+}
+
+::-webkit-input-placeholder {
+    color: #555;
+    font-family: "RobotoLight", sans-serif;
+    font-size: 1em;
+}
+
+::-moz-placeholder {
+    color: #555;
+    font-family: "RobotoLight", sans-serif;
+    font-size: 1em;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+    color: #555;
+    font-family: "RobotoLight", sans-serif;
+    font-size: 1em;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+    color: #555;
+    font-family: "RobotoLight", sans-serif;
+    font-size: 1em;
+}
+
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder, ::-moz-placeholder, :-moz-placeholder, :-ms-input-placeholder {
+    font-family: "RobotoLight", sans-serif;
+    font-size: 1em;
+    color: #555;
+}
+
+.button_enter_bottom {
+    font-family: "RobotoRegular", sans-serif;
+    color: #fff;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8px 27px 10px 29px;
+    border: none;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-top: 20px;
+}
+
+.wrap_select {
+
+    /* background: url('../img/option_arraw.png') no-repeat right center !important;*/
+}
+
+.wrap_select select {
+    background: transparent;
+}
+
+/*footer_text*/
+.footer_text {
+    color: #fff;
+    font-size: 1em;
+    font-family: 'RobotoLight', sans-serif;
+}
+
+@media (max-width: 320px) {
+    .button_enter {
+        float: none;
+        text-align: center;
+    }
+
+    .your_photo {
+        float: left;
+    }
+}
+
+@media (min-width: 320px)  and (max-width: 768px) {
+    .button_enter {
+        float: none;
+        text-align: center;
+    }
+
+    .your_photo {
+        float: left;
+    }
+}
+
+@media (min-width: 768px)  and (max-width: 992px) {
+    .button_enter {
+        float: none;
+        text-align: center;
+    }
+
+    .your_photo {
+        float: left;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .button_enter {
+        float: none;
+        text-align: center;
+    }
+
+    .your_photo {
+        float: left;
+    }
+}
