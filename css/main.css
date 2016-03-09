@@ -58,7 +58,6 @@ body {
 
 .layout {
     font-family: "Roboto-Black", sans-serif;
-    font-weight: bold;
     color: #27ae60;
     font-size: 1.5625em;
     text-transform: uppercase;
@@ -296,31 +295,7 @@ body {
     border: 1px solid #30ad64;
 }
 
-::-webkit-input-placeholder {
-    color: #555;
-    font-family: "RobotoLight", sans-serif;
-    font-size: 1em;
-}
 
-::-moz-placeholder {
-    color: #555;
-    font-family: "RobotoLight", sans-serif;
-    font-size: 1em;
-}
-
-/* Firefox 19+ */
-:-moz-placeholder {
-    color: #555;
-    font-family: "RobotoLight", sans-serif;
-    font-size: 1em;
-}
-
-/* Firefox 18- */
-:-ms-input-placeholder {
-    color: #555;
-    font-family: "RobotoLight", sans-serif;
-    font-size: 1em;
-}
 
 /*Стили текста, выводящегося в placeholder*/
 ::-webkit-input-placeholder, ::-moz-placeholder, :-moz-placeholder, :-ms-input-placeholder {
